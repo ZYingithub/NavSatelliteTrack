@@ -1,0 +1,40 @@
+[{"version": "1.0", "id": "document"}, 
+{   "billboard":{
+	"image": "http://localhost:8080/Apps/CZML_python/startpoint.png",
+	"scale": 0.7, "show": true},
+    "label":{
+      "fillColor":
+        {
+          "rgba":[
+            255,255,0,255
+          ]
+        },
+      "font":"bold 10pt Segoe UI Semibold",
+      "horizontalOrigin":"LEFT",
+      "outlineColor":{
+        "rgba":[
+          0,0,0,255
+        ]
+      },
+      "pixelOffset":{
+        "cartesian2":[
+          10.0,0.0
+        ]
+      },
+      "scale":1.0,
+      "show":[
+        {
+          "boolean":true
+        }
+      ],
+      "style":"FILL",
+      "text":"Vehicle",
+      "verticalOrigin":"CENTER"
+    }, 
+    "position":{
+      "cartesian":[
+        1216469.9357990976,-4736121.71856379,4081386.8856866374
+      ]
+    },
+	"id": "billboard"}
+]

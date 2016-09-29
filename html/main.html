@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>VisBDS Welcome!</title>
+    <!--引入第三方库-->
+    <script src="../js/jquery-3.1.0.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/jquery.burn.js"></script>
+    <script src="../js/prefixfree.min.js"></script>
+    <script src="../js/jquery-accordion-menu.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../css/jquery-accordion-menu.css">
+    <!--圆形菜单-->
+    <link rel="stylesheet" type="text/css" href="../css/gooey.min.css">
+    <!--引入自定义的文件-->
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+<!--引入第三方cesium库-->
+    <script src="../../../Build/Cesium/Cesium.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../Build/Cesium/Widgets/widgets.css">
+<!--引入第三方cesium库-->
+    <!--更改网页图标-->
+    <link rel="shortcut icon" href="../img/icon.ico">
+
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-default row navbar-inverse" role="navigation">
+        <div class="container-fluid">
+            <!--标题-->
+            <!--Bootsrap每一行均分成12个列，每个元素class="col-xs-8"表示该元素站8列的宽度
+            如果元素   class="row"表示该元素单独占12个列构成的一行
+            -->
+            <div class="navbar-header col-xs-7">
+                <a class="navbar-brand " href="#">Beidou Satellite Orbit Visualization</a>
+            </div>
+            <!--导航栏-->
+            <!--上面的标题单独占了8列，剩下四个导航标题默认均分剩下的4列-->
+            <div>
+                <ul class="nav navbar-nav">
+                    <li class="active "><a href="../index.html"><span class="glyphicon glyphicon-home"> Home</span></a></li>
+                    <li><a href="../html/introduction.html">
+                        <span class="glyphicon glyphicon-info-sign"> Introduction</span></a></li>
+                    <li class="dropdown">
+                        <a href="../html/gallery.html" class="dropdown-toggle" data-toggle="dropdown">
+                            <span class="glyphicon glyphicon-th-list"> BDS Gallery</span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">jmeter</a></li>
+                            <li><a href="#">EJB</a></li>
+                            <li><a href="#">Jasper Report</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">分离的链接</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">另一个分离的链接</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../html/about.html#"><span class="glyphicon glyphicon-question-sign"> About</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<!--左侧三个Tab面板-->
+<ul id="tabs">
+    <li><a href="#" title="tab1">Satellite View</a></li>
+    <li><a href="#" title="tab2">Space Awareness</a></li>
+    <li><a href="#" title="tab3">More</a></li>
+</ul>
+<div id="content">
+    <div id="tab1">
+        <!--多级折叠菜单-->
+        <aside class="accordion">
+            <h1>BDS Satellite Track(20)</h1>
+            <div>
+                <h2>GEO (Geosynchronous Orbit)</h2>
+                <ul class="not-open">
+                <li><label><input type="checkbox" />BEIDOU G1</label></li>
+                <li><label><input type="checkbox" />BEIDOU G3</label></li>
+                <li><label><input type="checkbox" />BEIDOU G4</label></li>
+                <li><label><input type="checkbox" />BEIDOU G5</label></li>
+                <li><label><input type="checkbox" />BEIDOU G6</label></li>
+                <li><label><input type="checkbox" />BEIDOU G7</label></li>
+                </ul>
+                <h2>MEO (Medium Earth Orbit)</h2>
+                <ul class="not-open">
+                <li><label><input type="checkbox" />BEIDOU M3</label></li>
+                <li><label><input type="checkbox" />BEIDOU M4</label></li>
+                <li><label><input type="checkbox" />BEIDOU M6</label></li>
+                <li><label><input type="checkbox" />BEIDOU-3 M2</label></li>
+                <li><label><input type="checkbox" />BEIDOU-3 M2</label></li>
+                <li><label><input type="checkbox" />BEIDOU M3-S</label></li>
+                </ul>
+                <h2>IGSO (Inclined Geosynchronous Satellite Orbit)</h2>
+                <ul class="not-open">
+                    <li><label><input type="checkbox" />BEIDOU IGSO1</label></li>
+                    <li><label><input type="checkbox" />BEIDOU IGSO2</label></li>
+                    <li><label><input type="checkbox" />BEIDOU IGSO3</label></li>
+                    <li><label><input type="checkbox" />BEIDOU IGSO4</label></li>
+                    <li><label><input type="checkbox" />BEIDOU IGSO5</label></li>
+                    <li><label><input type="checkbox" />BEIDOU IGSO6</label></li>
+                    <li><label><input type="checkbox" />BEIDOU I1-S</label></li>
+                    <li><label><input type="checkbox" />BEIDOU I2-S</label></li>
+                </ul>
+            </div>
+            <h1>BDS Ground Segment</h1>
+            <div>
+                <h2>News Item #1</h2>
+                <div>
+                    <h3>News Item #1a</h3>
+                    <div>
+                        <h4>News Subitem 1</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                        <h4>News Subitem 2</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                        <h4>News Subitem 3</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                    <h3>News Item #1b</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                    <h3>News Item #1c</h3>
+                    <div class="opened-for-codepen">
+                        <h4>News Subitem 1</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                        <h4>News Subitem 2</h4>
+                        <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+
+                <h2>News Item #2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <h2>News Item #3</h2>
+                <div>
+                    <h3>News Item #3a</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                    <h3>News Item #3b</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div>
+                <h2>Misc. #1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <h2>Misc. #2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <h2>Misc. #3</h2>
+                <div>
+                    <h3>Misc. Item #1a</h3>
+                    <div>
+                        <h4>Misc. Subitem 1</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                        <h4>Misc. Subitem 2</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                        <h4>Misc. Subitem 3</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <h3>Misc. Item #2a</h3>
+                    <div>
+                        <h4>Misc. Subitem 1</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                        <h4>Misc. Subitem 2</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+            <h1>BDS User Segement</h1>
+            <div>
+                <h2>Update #1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <h2>Update #2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <h2>Update #3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <h2>Update #4</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <h1>GPS Satellite Track(32)</h1>
+            <div>
+                <h2>BⅡR</h2>
+                <ul class="not-open">
+                    <li><label><input type="checkbox" />BⅡR-2</label></li>
+                    <li><label><input type="checkbox" />BⅡR-3</label></li>
+                    <li><label><input type="checkbox" />BⅡR-4</label></li>
+                    <li><label><input type="checkbox" />BⅡR-5</label></li>
+                    <li><label><input type="checkbox" />BⅡR-6</label></li>
+                    <li><label><input type="checkbox" />BⅡR-7</label></li>
+                    <li><label><input type="checkbox" />BⅡR-8</label></li>
+                    <li><label><input type="checkbox" />BⅡR-9</label></li>
+                    <li><label><input type="checkbox" />BⅡR-10</label></li>
+                    <li><label><input type="checkbox" />BⅡR-11</label></li>
+                    <li><label><input type="checkbox" />BⅡR-12</label></li>
+                    <li><label><input type="checkbox" />BⅡR-13</label></li>
+                </ul>
+                <h2>BⅡRM</h2>
+                <ul class="not-open">
+                    <li><label><input type="checkbox" />BⅡRM-1</label></li>
+                    <li><label><input type="checkbox" />BⅡRM-2</label></li>
+                    <li><label><input type="checkbox" />BⅡRM-3</label></li>
+                    <li><label><input type="checkbox" />BⅡRM-4</label></li>
+                    <li><label><input type="checkbox" />BⅡRM-5</label></li>
+                    <li><label><input type="checkbox" />BⅡRM-6</label></li>
+                    <li><label><input type="checkbox" />BⅡRM-7</label></li>
+                    <li><label><input type="checkbox" />BⅡRM-8</label></li>
+                </ul>
+                <h2>BⅡRF</h2>
+                <ul class="not-open">
+                    <li><label><input type="checkbox" />BⅡRF-1</label></li>
+                    <li><label><input type="checkbox" />BⅡRF-2</label></li>
+                    <li><label><input type="checkbox" />BⅡRF-3</label></li>
+                    <li><label><input type="checkbox" />BⅡRF-4</label></li>
+                    <li><label><input type="checkbox" />BⅡRF-5</label></li>
+                    <li><label><input type="checkbox" />BⅡRF-6</label></li>
+                    <li><label><input type="checkbox" />BⅡRF-7</label></li>
+                    <li><label><input type="checkbox" />BⅡRF-8</label></li>
+                    <li><label><input type="checkbox" />BⅡRF-9</label></li>
+                    <li><label><input type="checkbox" />BⅡRF-10</label></li>
+                    <li><label><input type="checkbox" />BⅡRF-11</label></li>
+                    <li><label><input type="checkbox" />BⅡRF-12</label></li>
+                </ul>
+            </div>
+            <h1>GLONASS Satellite Track(28)</h1>
+            <div>
+                <h2>COSMOS Series</h2>
+                <ul class="not-open">
+                    <li><label><input type="checkbox" />COSMOS 2419</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2415</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2426</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2426</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2424</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2433</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2432</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2434</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2436</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2443</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2456</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2457</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2458</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2459</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2461</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2460</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2465</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2464</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2471</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2474</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2476</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2477</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2475</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2485</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2492</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2500</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2501</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2514</label></li>
+                    <li><label><input type="checkbox" />COSMOS 2516</label></li>
+                </ul>
+            </div>
+
+
+        </aside>
+        <!--多级折叠菜单-->
+    </div>
+    <div id="tab2">
+        <h2>Vivamus fringilla suscipit justo</h2>
+        <p>Aenean dui nulla, egestas sit amet auctor vitae, facilisis id odio. Donec dictum gravida feugiat.</p>
+        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras pretium elit et erat condimentum et volutpat lorem vehicula</p>
+        <p>Morbi tincidunt pharetra orci commodo molestie. Praesent ut leo nec dolor tempor eleifend.</p>
+    </div>
+    <div id="tab3">
+        <h2>Phasellus non nibh</h2>
+        <p>Non erat laoreet ullamcorper. Pellentesque magna metus, feugiat eu elementum sit amet, cursus sed diam. Curabitur posuere porttitor lorem, eu malesuada tortor faucibus sed.</p>
+        <h3>Duis pulvinar nibh vel urna</h3>
+        <p>Donec purus leo, porttitor eu molestie quis, porttitor sit amet ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec accumsan ornare elit id imperdiet. </p>
+        <p>Suspendisse ac libero mauris. Cras lacinia porttitor urna, vitae molestie libero posuere et. </p>
+    </div>
+</div>
+<!--左侧三个Tab面板-->
+
+<!--cesium虚拟球-->
+<div id="cesiumContainer"></div>
+<!--cesium虚拟球-->
+
+
+
+
+
+<script src="../js/main.js"></script>
+<!--圆形菜单-->
+
+<nav id="gooey-h">
+    <input type="checkbox" class="menu-open" name="menu-open2" id="menu-open2"/>
+    <label class="open-button" for="menu-open2">
+        <span class="burger burger-1"></span>
+        <span class="burger burger-2"></span>
+        <span class="burger burger-3"></span>
+    </label>
+
+    <a href="#" class="gooey-menu-item"> <i class="fa fa-train"></i> </a>
+    <a href="#" class="gooey-menu-item"> <i class="fa fa-bicycle"></i> </a>
+    <a href="#" class="gooey-menu-item"> <i class="fa fa-rocket"></i> </a>
+    <a href="#" class="gooey-menu-item"> <i class="fa fa-automobile"></i> </a>
+</nav>
+<script src="../js/gooey.min.js"></script>
+<!--圆形菜单-->
+</body>
+</html>

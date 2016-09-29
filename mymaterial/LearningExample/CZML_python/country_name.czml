@@ -1,0 +1,1046 @@
+[
+  {
+    "version": "1.0",
+    "id": "document"
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        116.406612,
+        39.904186,
+        2000
+      ]
+    },
+    "id": "中国",
+    "label": {
+      "text": "中国",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        106.920481,
+        47.919624,
+        2000
+      ]
+    },
+    "id": "蒙古",
+    "label": {
+      "text": "蒙古",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        37.619697,
+        55.75561,
+        2000
+      ]
+    },
+    "id": "俄罗斯",
+    "label": {
+      "text": "俄罗斯",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        106.845599,
+        -6.2087634,
+        2000
+      ]
+    },
+    "id": "印度尼西亚",
+    "label": {
+      "text": "印度尼西亚",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        100.992541,
+        15.870032,
+        2000
+      ]
+    },
+    "id": "泰国",
+    "label": {
+      "text": "泰国",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        101.975766,
+        4.210484,
+        2000
+      ]
+    },
+    "id": "马来西亚",
+    "label": {
+      "text": "马来西亚",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        108.277199,
+        14.058324,
+        2000
+      ]
+    },
+    "id": "越南",
+    "label": {
+      "text": "越南",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        103.819836,
+        1.352083,
+        2000
+      ]
+    },
+    "id": "新加坡",
+    "label": {
+      "text": "新加坡",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        120.984219,
+        14.599512,
+        2000
+      ]
+    },
+    "id": "菲律宾",
+    "label": {
+      "text": "菲律宾",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        95.956223,
+        21.913965,
+        2000
+      ]
+    },
+    "id": "缅甸",
+    "label": {
+      "text": "缅甸",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        104.990963,
+        12.565679,
+        2000
+      ]
+    },
+    "id": "柬埔寨",
+    "label": {
+      "text": "柬埔寨",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        102.614429,
+        17.962769,
+        2000
+      ]
+    },
+    "id": "老挝",
+    "label": {
+      "text": "老挝",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        114.727669,
+        4.535277,
+        2000
+      ]
+    },
+    "id": "文莱",
+    "label": {
+      "text": "文莱",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        125.727539,
+        -8.874217,
+        2000
+      ]
+    },
+    "id": "东帝汶",
+    "label": {
+      "text": "东帝汶",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        31.16558,
+        48.379433,
+        2000
+      ]
+    },
+    "id": "乌克兰",
+    "label": {
+      "text": "乌克兰",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        27.953389,
+        53.709807,
+        2000
+      ]
+    },
+    "id": "白俄罗斯",
+    "label": {
+      "text": "白俄罗斯",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        43.356892,
+        42.315407,
+        2000
+      ]
+    },
+    "id": "格鲁吉亚",
+    "label": {
+      "text": "格鲁吉亚",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        47.576927,
+        40.143105,
+        2000
+      ]
+    },
+    "id": "阿塞拜疆",
+    "label": {
+      "text": "阿塞拜疆",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        45.038189,
+        40.069099,
+        2000
+      ]
+    },
+    "id": "亚美尼亚",
+    "label": {
+      "text": "亚美尼亚",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        28.369885,
+        47.411631,
+        2000
+      ]
+    },
+    "id": "摩尔多瓦",
+    "label": {
+      "text": "摩尔多瓦",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        78.96288,
+        20.593684,
+        2000
+      ]
+    },
+    "id": "印度",
+    "label": {
+      "text": "印度",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        69.345116,
+        30.375321,
+        2000
+      ]
+    },
+    "id": "巴基斯坦",
+    "label": {
+      "text": "巴基斯坦",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        90.356331,
+        23.684994,
+        2000
+      ]
+    },
+    "id": "孟加拉国",
+    "label": {
+      "text": "孟加拉国",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        79.861243,
+        6.927079,
+        2000
+      ]
+    },
+    "id": "斯里兰卡",
+    "label": {
+      "text": "斯里兰卡",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        67.709953,
+        33.93911,
+        2000
+      ]
+    },
+    "id": "阿富汗",
+    "label": {
+      "text": "阿富汗",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        84.124008,
+        28.394857,
+        2000
+      ]
+    },
+    "id": "尼泊尔",
+    "label": {
+      "text": "尼泊尔",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        73.5361034,
+        1.977247,
+        2000
+      ]
+    },
+    "id": "马尔代夫",
+    "label": {
+      "text": "马尔代夫",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        90.433601,
+        27.514162,
+        2000
+      ]
+    },
+    "id": "不丹",
+    "label": {
+      "text": "不丹",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        1.489012,
+        48.443854,
+        2000
+      ]
+    },
+    "id": "沙特阿拉伯",
+    "label": {
+      "text": "沙特阿拉伯",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        53.847818,
+        23.424076,
+        2000
+      ]
+    },
+    "id": "阿联酋",
+    "label": {
+      "text": "阿联酋",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        55.923255,
+        21.512583,
+        2000
+      ]
+    },
+    "id": "阿曼",
+    "label": {
+      "text": "阿曼",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        53.688046,
+        32.427908,
+        2000
+      ]
+    },
+    "id": "伊朗",
+    "label": {
+      "text": "伊朗",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        35.243322,
+        38.963745,
+        2000
+      ]
+    },
+    "id": "土耳其",
+    "label": {
+      "text": "土耳其",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        34.851612,
+        31.046051,
+        2000
+      ]
+    },
+    "id": "以色列",
+    "label": {
+      "text": "以色列",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        30.802498,
+        26.820553,
+        2000
+      ]
+    },
+    "id": "埃及",
+    "label": {
+      "text": "埃及",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        47.481766,
+        29.31166,
+        2000
+      ]
+    },
+    "id": "科威特",
+    "label": {
+      "text": "科威特",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        43.679291,
+        33.223191,
+        2000
+      ]
+    },
+    "id": "伊拉克",
+    "label": {
+      "text": "伊拉克",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        51.183884,
+        25.354826,
+        2000
+      ]
+    },
+    "id": "卡塔尔",
+    "label": {
+      "text": "卡塔尔",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        36.238414,
+        30.585164,
+        2000
+      ]
+    },
+    "id": "约旦",
+    "label": {
+      "text": "约旦",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        35.86228,
+        33.854721,
+        2000
+      ]
+    },
+    "id": "黎巴嫩",
+    "label": {
+      "text": "黎巴嫩",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        50.5577,
+        26.0667,
+        2000
+      ]
+    },
+    "id": "巴林",
+    "label": {
+      "text": "巴林",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        48.516388,
+        15.552727,
+        2000
+      ]
+    },
+    "id": "也门共和国",
+    "label": {
+      "text": "也门共和国",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        38.996815,
+        34.802075,
+        2000
+      ]
+    },
+    "id": "叙利亚",
+    "label": {
+      "text": "叙利亚",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        35.233154,
+        31.952162,
+        2000
+      ]
+    },
+    "id": "巴勒斯坦",
+    "label": {
+      "text": "巴勒斯坦",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        19.145136,
+        51.919438,
+        2000
+      ]
+    },
+    "id": "波兰",
+    "label": {
+      "text": "波兰",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        24.96676,
+        45.943161,
+        2000
+      ]
+    },
+    "id": "罗马尼亚",
+    "label": {
+      "text": "罗马尼亚",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        15.472962,
+        49.817492,
+        2000
+      ]
+    },
+    "id": "捷克共和国",
+    "label": {
+      "text": "捷克共和国",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        19.699024,
+        48.669026,
+        2000
+      ]
+    },
+    "id": "斯洛伐克",
+    "label": {
+      "text": "斯洛伐克",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        25.48583,
+        42.733883,
+        2000
+      ]
+    },
+    "id": "保加利亚",
+    "label": {
+      "text": "保加利亚",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        19.503304,
+        47.162494,
+        2000
+      ]
+    },
+    "id": "匈牙利",
+    "label": {
+      "text": "匈牙利",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        56.879635,
+        24.603189,
+        2000
+      ]
+    },
+    "id": "拉脱维亚",
+    "label": {
+      "text": "拉脱维亚",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        23.881275,
+        55.169438,
+        2000
+      ]
+    },
+    "id": "立陶宛",
+    "label": {
+      "text": "立陶宛",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        14.995463,
+        46.151241,
+        2000
+      ]
+    },
+    "id": "斯洛文尼亚",
+    "label": {
+      "text": "斯洛文尼亚",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        25.013607,
+        58.595272,
+        2000
+      ]
+    },
+    "id": "爱沙尼亚",
+    "label": {
+      "text": "爱沙尼亚",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        15.2,
+        45.1,
+        2000
+      ]
+    },
+    "id": "克罗地亚",
+    "label": {
+      "text": "克罗地亚",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        20.168331,
+        41.153332,
+        2000
+      ]
+    },
+    "id": "阿尔巴尼亚",
+    "label": {
+      "text": "阿尔巴尼亚",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        44.01652,
+        21.005859,
+        2000
+      ]
+    },
+    "id": "塞尔维亚",
+    "label": {
+      "text": "塞尔维亚",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        21.745275,
+        41.608635,
+        2000
+      ]
+    },
+    "id": "马其顿",
+    "label": {
+      "text": "马其顿",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        18.4130763,
+        43.8562586,
+        2000
+      ]
+    },
+    "id": "波黑",
+    "label": {
+      "text": "波黑",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        19.37439,
+        42.708678,
+        2000
+      ]
+    },
+    "id": "黑山",
+    "label": {
+      "text": "黑山",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        66.923684,
+        48.019573,
+        2000
+      ]
+    },
+    "id": "哈萨克斯坦",
+    "label": {
+      "text": "哈萨克斯坦",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        64.585262,
+        41.377491,
+        2000
+      ]
+    },
+    "id": "乌兹别克斯坦",
+    "label": {
+      "text": "乌兹别克斯坦",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        59.556278,
+        38.969719,
+        2000
+      ]
+    },
+    "id": "土库曼斯坦",
+    "label": {
+      "text": "土库曼斯坦",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        74.766098,
+        41.20438,
+        2000
+      ]
+    },
+    "id": "吉尔吉斯斯坦",
+    "label": {
+      "text": "吉尔吉斯斯坦",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  },
+  {
+    "position": {
+      "cartographicDegrees": [
+        71.276093,
+        38.861034,
+        2000
+      ]
+    },
+    "id": "塔吉克斯坦",
+    "label": {
+      "text": "塔吉克斯坦",
+      "scale": 1.0,
+      "horizontalOrigin": "LEFT",
+      "show": true
+    }
+  }
+]

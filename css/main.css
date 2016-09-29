@@ -1,0 +1,394 @@
+
+body
+{overflow: hidden;
+background-color: #5f9ea0;
+}
+/*主页文字燃烧特效 burn包文字特效*/
+.burning{
+    color: white;         /* A light text makes a nice bright flame source */
+    background: transparent;
+    letter-spacing: 0.1em;  /* Big text shows off the effect best */
+    font-weight: bold;
+}
+/*左侧三个Tab面板*/
+#tabs {
+    overflow: hidden;
+    position: absolute;
+    top: 7%;
+    width:32%;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    border-left: 0px;
+    list-style: none;
+}
+#tabs li {
+
+    margin: 0em;
+    padding: 0px;
+
+}
+#tabs a {
+    padding: 12px 0px 12px 0px !important;
+    position: relative;
+    background: #ddd;
+    text-align: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
+    background-image: -webkit-linear-gradient(top, #fff, #ddd);
+    background-image: -moz-linear-gradient(top, #fff, #ddd);
+    background-image: -ms-linear-gradient(top, #fff, #ddd);
+    background-image: -o-linear-gradient(top, #fff, #ddd);
+    background-image: linear-gradient(to bottom, #fff, #ddd);
+    float: left;
+    left: 0px;
+    width:28%;
+    text-decoration: none;
+    color: #444;
+    text-shadow: 0 1px 0 rgba(239, 248, 255, 0.80) !important;
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+    border-radius: 5px 0 0 0;
+    -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+}
+#tabs a:hover, #tabs a:hover::after, #tabs a:focus, #tabs a:focus::after {
+    background: #fff;
+}
+#tabs a:focus {
+    outline: 1px dotted #4682b4;
+}
+#tabs a::after {
+    content:'';
+    position:absolute;
+    z-index: 1;
+    top: 0;
+    right: -.5em;
+    bottom: 0;
+    width: 1em;
+    background: #4d5b8b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
+    background-image: -webkit-linear-gradient(top, #fff, #ddd);
+    background-image: -moz-linear-gradient(top, #fff, #ddd);
+    background-image: -ms-linear-gradient(top, #fff, #ddd);
+    background-image: -o-linear-gradient(top, #fff, #ddd);
+    background-image: linear-gradient(to bottom, #fff, #ddd);
+    -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+    -webkit-transform: skew(10deg);
+    -moz-transform: skew(10deg);
+    -ms-transform: skew(10deg);
+    -o-transform: skew(10deg);
+    transform: skew(10deg);
+    -webkit-border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0;
+    border-radius: 0 5px 0 0;
+}
+#tabs #current a, #tabs #current a::after {
+    background: #7384c9;
+    z-index: 3;
+    font-weight: bold;
+    padding: 13.5px 2px 13.5px 2px;
+}
+
+/* ------------------------------------------------- */
+
+#content {
+    overflow: auto;
+    left: 1px;
+    position: absolute;
+    top: 13.5%;;
+    background:  #5f9ea0;
+    margin: 0;
+    padding: 0;
+    height: 80%;
+    width: 28%;
+    position: absolute;
+    z-index: 2;
+    -moz-border-radius: 0 5px 5px 5px;
+    -webkit-border-radius: 0 5px 5px 5px;
+    border-radius: 0 5px 5px 5px;
+    -moz-box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
+    box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
+}
+#content h2, #content h3, #content p {
+    margin: 0 0 15px 0;
+}
+/* ------------------------------------------------- */
+
+#about {
+    color: #999;
+}
+#about a {
+    color: #eee;
+}
+/*左侧三个Tab面板*/
+/*cesium container*/
+#cesiumContainer {
+    background-color:  #f8f8ff;
+    position: absolute;
+    /*float: right;*/
+   left: 28%;
+    top: 7.5%;
+    width: 72%;
+    height: 93%;
+    margin:0 ;
+    padding: 0;
+    overflow: hidden;
+    /*border:2px solid #000000;*/
+}
+/*左侧多级折叠面板*/
+.accordion {
+    position: absolute;
+    width: 99%;
+    margin: 0px;
+    left:0px;
+    top: 1px;
+}
+.accordion h1, h2, h3, h4 {
+    margin: 1px !important;
+    font-family: "FontAwesome";
+    cursor: pointer;
+
+}
+.accordion h1 {
+    left: 10px;
+    padding: 18px 0px  20px 20px;
+    background-color: #355f8a;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #f2fffc;
+    border: 1px dotted #2f4f4f;
+    /*text-shadow: #992670 3px 3px 10px;*/
+}
+.accordion h1:hover {
+    color: #4afcdc;
+}
+.accordion h1:first-child {
+    border-radius: 10px 10px 0 0;
+}
+.accordion h1:last-of-type {
+    border-radius: 0 0 10px 10px;
+}
+.accordion h1:not(:last-of-type) {
+    border-bottom: 1px dotted #1abc9c;
+}
+.accordion div, .accordion p {
+    display: none;
+}
+.accordion h2 {
+    padding: 5px 2px;
+    background-color: #ffecfc;
+    color: #333;
+    font-size: 1.4rem;
+    font-family: calibri;
+    font-weight: bold;
+    border-left:40px solid #355f8a;
+    border-radius: 3px;
+    height:30px ;
+}
+.accordion h2:hover {
+    background-color: #09ab8b;
+
+}
+.accordion  .not-open
+{
+    color: #cef5ef;
+    font-weight: bolder;
+    padding: 0px;
+    border-radius: 5px;
+    border-left: 40px solid #355f8a;
+}
+.accordion .not-open label
+{cursor: pointer;}
+.accordion .not-open li
+{border-radius: 5px;
+ border: 0.02em dotted;
+left: 8px;
+ color: #ffffff;
+font-family: cursive;
+font-weight: normal;
+
+}
+.accordion h3 {
+    padding: 5px 0px;
+    background-color: #b94152;
+    color: #dddda1;
+    font-size:1.5rem;
+    /*border-left:20px thin  #80c4e8;*/
+    border-radius: 5px;
+}
+.accordion h3:hover {
+    background-color: #a93142;
+}
+.accordion h4 {
+    padding: 5px 35px;
+    background-color: #ffc25a;
+    color: #af720a;
+    font-size:1.2rem;
+}
+.accordion h4:hover {
+    background-color: #e0b040;
+}
+.accordion p {
+    padding: 15px 35px;
+    background-color: #ddd;
+    font-family: "Georgia";
+    font-size: .8rem;
+    color: #333;
+    line-height: 1.3rem;
+}
+.accordion .opened-for-codepen {
+    display: block;
+}
+/*列表先不展开，否则会导致屏幕大小更改*/
+.accordion .not-open {
+    display:none;
+}
+/*列表先不展开，否则会导致屏幕大小更改*/
+
+/*左下方圆形菜单*/
+.navimenu
+{   position: absolute;
+    top: 550px !important;
+    left: 40px !important;
+    z-index: 10;
+    padding-left: 10px !important;
+}
+svg:not(:root)
+{
+    width:400PX;
+
+}
+#gooey-upper .gooey-menu-item,
+#gooey-upper .open-button {
+    left: 50%;
+    top: 50%;
+}
+#gooey-h .open-button,
+#gooey-h .gooey-menu-item {
+    margin-top: 4.2em;
+    margin-left: .6em;
+}
+#gooey-v .open-button,
+#gooey-v .gooey-menu-item {
+    margin-top: 30em;
+}
+#gooey-round,
+#gooey-API {
+    left: 30%;
+    top: 50%;
+}
+#gooey-round .open-button,
+#gooey-API .open-button,
+#gooey-round .gooey-menu-item,
+#gooey-API .gooey-menu-item {
+    margin-top: 6.5em;
+    margin-left: 3.2em;
+}
+.fa.fa-angle-double-up {
+    position: fixed;
+    left: 95%;
+    bottom: 0%;
+    cursor: pointer;
+    color: #748c99;
+}
+/* Responsive styles */
+
+@media screen and (min-device-width: 320px) and (orientation: portrait) {
+    .fa.fa-angle-double-up {
+        left: 75%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 780px) and (orientation: landscape) {
+    .fa.fa-angle-double-up {
+        left: 89%;
+    }
+
+}
+@media (max-width: 780px) {
+    #gooey-upper {
+        margin: 0;
+    }
+    #gooey-upper .gooey-menu-item,
+    #gooey-upper .open-button {
+        left: 44%;
+        top: 70%;
+    }
+    #gooey-round .gooey-menu-item, #gooey-round .open-button {
+        top:50%;
+    }
+    #gooey-h .open-button,
+    #gooey-h .gooey-menu-item {
+        top: 20%;
+        left: 20%;
+    }
+    .round-example {
+        min-height: 20em;
+    }
+    #gooey-v .open-button,
+    #gooey-v .gooey-menu-item {
+        margin-top: 0;
+    }
+    #gooey-v {
+        margin-top: 24em;
+    }
+    .event-api-ex {
+        min-height: 23em;
+    }
+    #gooey-API {
+        margin-top:6em;
+    }
+    .vertical-example {
+        min-height: 15em;
+    }
+    #gooey-round,
+    #gooey-API {
+        top: 30%;
+    }
+    #gooey-round .open-button,
+    #gooey-API .open-button,
+    #gooey-round .gooey-menu-item,
+    #gooey-API .gooey-menu-item {
+        margin-top: 3.5em;
+        margin-left: 3.2em;
+    }
+    .gooeySVG {
+        width: 0;
+        height: 0;
+    }
+    #gooey-h .open-button,
+    #gooey-h .gooey-menu-item {
+        margin-top: .8em;
+    }
+    .prettyprint {
+        font-size: .7em;
+    }
+    .plugin-demo-header {
+        margin: 1em 2em 5em 2em;
+    }
+    .feature {
+        width: 55px;
+        height: 55px;
+        line-height: 65px;
+    }
+    .feature-desc {
+        font-size: 1em;
+    }
+    .section-label {
+        font-size: 1.5em;
+        margin-top: 1em;
+    }
+    #menu-v-example {
+        min-height: 35em;
+    }
+}
+#gooey-h .open-button,#gooey-h .gooey-menu-item
+{
+background-color: #355f8a !important;
+
+}
+/*左下方圆形菜单*/
+

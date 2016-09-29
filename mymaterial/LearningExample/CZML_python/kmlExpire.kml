@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+ <NetworkLink>
+ <Link>
+ <href>http://localhost:8080/Apps/CZML_python/py_KML.py</href>
+ <refreshMode>onExpire</refreshMode>
+ </Link>
+ </NetworkLink>
+</Document>
+</kml>

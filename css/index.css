@@ -1,0 +1,51 @@
+/*主页文字燃烧特效 burn包文字特效*/
+.burning{
+    color: white;         /* A light text makes a nice bright flame source */
+    background: transparent;
+  letter-spacing: 0.1em;  /* Big text shows off the effect best */
+  font-weight: bold;
+
+
+}
+/*导航栏设置边框、颜色*/
+.navbar{
+    border-bottom: 1px dotted #5f9ea0; !important;
+    margin:0px !important;
+    padding: 0px !important;
+    width:99.5%
+
+
+
+}
+/*页面中字体漂浮在中央*/
+h1{ font-size:80px !important;
+    position:absolute;
+    right:20%;
+    top:50%;
+    z-index:2;}
+/*enter键近乎主页面*/
+button{position:absolute;
+    font-weight: bold;
+    width:100px;
+    right:46%;
+    top:80%;
+    z-index:2;}
+/*轮播设置*/
+.carousel-control.right {
+    right: 1px;
+    left: auto; }
+/*#myCarousel*/
+/*{  overflow: hidden !important;*/
+    /*height: 40% !important;}*/
+/*carousel-inner div, #myCarousel img*/
+/*{*/
+    /*overflow: hidden !important;*/
+/*}*/
+#myCarousel
+{z-index: -1;
+}
+#myCarousel img
+{ width: 99.7%;height:625px;
+    overflow: hidden !important;
+}
+/*轮播设置*/

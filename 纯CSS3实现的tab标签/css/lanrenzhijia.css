@@ -1,0 +1,109 @@
+#tabs {
+	overflow: hidden;
+	width:34%;
+    left: 0px;
+	margin: 0;
+	padding: 0;
+    border-left: 0px;
+	list-style: none;
+}
+#tabs li {
+
+	margin: 0em;
+    padding: 0px;
+
+}
+#tabs a {
+    padding: 12px 0px 12px 0px !important;
+	position: relative;
+	background: #ddd;
+    text-align: center;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
+	background-image: -webkit-linear-gradient(top, #fff, #ddd);
+	background-image: -moz-linear-gradient(top, #fff, #ddd);
+	background-image: -ms-linear-gradient(top, #fff, #ddd);
+	background-image: -o-linear-gradient(top, #fff, #ddd);
+	background-image: linear-gradient(to bottom, #fff, #ddd);
+	float: left;
+    left: 0px;
+    width:28%;
+	text-decoration: none;
+	color: #444;
+	text-shadow: 0 1px 0 rgba(239, 248, 255, 0.80) !important;
+	-webkit-border-radius: 5px 0 0 0;
+	-moz-border-radius: 5px 0 0 0;
+	border-radius: 5px 0 0 0;
+	-moz-box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+	-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+	box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+}
+ #tabs a:hover, #tabs a:hover::after, #tabs a:focus, #tabs a:focus::after {
+ background: #fff;
+}
+#tabs a:focus {
+	outline: 1px dotted #4682b4;
+}
+ #tabs a::after {
+ content:'';
+ position:absolute;
+ z-index: 1;
+ top: 0;
+ right: -.5em;
+ bottom: 0;
+ width: 1em;
+ background: #4d5b8b;
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
+ background-image: -webkit-linear-gradient(top, #fff, #ddd);
+ background-image: -moz-linear-gradient(top, #fff, #ddd);
+ background-image: -ms-linear-gradient(top, #fff, #ddd);
+ background-image: -o-linear-gradient(top, #fff, #ddd);
+ background-image: linear-gradient(to bottom, #fff, #ddd);
+ -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+ -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+ box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+ -webkit-transform: skew(10deg);
+ -moz-transform: skew(10deg);
+ -ms-transform: skew(10deg);
+ -o-transform: skew(10deg);
+ transform: skew(10deg);
+ -webkit-border-radius: 0 5px 0 0;
+ -moz-border-radius: 0 5px 0 0;
+ border-radius: 0 5px 0 0;
+}
+ #tabs #current a, #tabs #current a::after {
+ background: #7384c9;
+ z-index: 3;
+font-weight: bold;
+padding: 13.5px 2px 13.5px 2px;
+}
+
+/* ------------------------------------------------- */
+
+#content {
+    left: 1px;
+    padding: 1px;
+	background: #4d5b8b;
+	padding: 2em;
+	height: 80%;
+    width: 25%;
+	position: absolute;
+	z-index: 2;
+	-moz-border-radius: 0 5px 5px 5px;
+	-webkit-border-radius: 0 5px 5px 5px;
+	border-radius: 0 5px 5px 5px;
+	-moz-box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
+	box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
+}
+#content h2, #content h3, #content p {
+	margin: 0 0 15px 0;
+}
+/* ------------------------------------------------- */
+
+#about {
+	color: #999;
+}
+#about a {
+	color: #eee;
+}
+/* 代码整理：懒人之家 www.lanrenzhijia.com */

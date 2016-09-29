@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>VisBDS Welcome!</title>
+    <!--引入第三方库-->
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.burn.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+    <!--引入自定义的文件-->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+<!--更改网页图标-->
+    <link rel="shortcut icon" href="img/icon.ico">
+
+
+</head>
+<body>
+
+<div>
+<nav class="navbar navbar-default row " role="navigation">
+    <div class="container-fluid">
+        <!--标题-->
+        <!--Bootsrap每一行均分成12个列，每个元素class="col-xs-8"表示该元素站8列的宽度
+        如果元素   class="row"表示该元素单独占12个列构成的一行
+        -->
+        <div class="navbar-header col-xs-7">
+            <a class="navbar-brand " href="#">Beidou Satellite Orbit Visualization</a>
+        </div>
+        <!--导航栏-->
+        <!--上面的标题单独占了8列，剩下四个导航标题默认均分剩下的4列-->
+        <div>
+            <ul class="nav navbar-nav">
+                <li class="active "><a href="index.html"><span class="glyphicon glyphicon-home"> Home</span></a></li>
+                <li><a href="html/introduction.html">
+                    <span class="glyphicon glyphicon-info-sign"> Introduction</span></a></li>
+                <li class="dropdown">
+                    <a href="html/gallery.html" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-th-list"> BDS Gallery</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">jmeter</a></li>
+                        <li><a href="#">EJB</a></li>
+                        <li><a href="#">Jasper Report</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">分离的链接</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">另一个分离的链接</a></li>
+                    </ul>
+                </li>
+                <li><a href="html/about.html#"><span class="glyphicon glyphicon-question-sign"> About</span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</div>
+
+
+<h1 class="burning">BDS Visualization</h1>
+<!--enter键页面跳转-->
+<a href="html/main.html"><button type="button"  class="btn btn-info">Enter</button> </a>
+
+<!--图片轮播-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel" >
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators" data-ride="carousel" >
+        <li data-target="#myCarousel" data-slide-to="0" class="active" ></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="./img/slider1.jpg" alt="First slide">
+            <!--<div class="carousel-caption">标题 1</div>-->
+        </div>
+        <div class="item">
+            <img src="./img/slider2.jpg" alt="Second slide">
+            <!--<div class="carousel-caption">标题 2</div>-->
+        </div>
+        <div class="item">
+            <img src="./img/slider3.jpg" alt="Third slide">
+            <!--<div class="carousel-caption">标题 3</div>-->
+        </div>
+        <div class="item">
+            <img src="./img/slider4.jpg" alt="Third slide">
+            <!--<div class="carousel-caption">标题 3</div>-->
+        </div>
+        <div class="item">
+            <img src="./img/slider5.jpg" alt="Third slide">
+            <!--<div class="carousel-caption">标题 3</div>-->
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="carousel-control left" href="#myCarousel"
+       data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#myCarousel"
+       data-slide="next">&rsaquo;</a>
+</div>
+
+
+<!--图片轮播-->
+<!--先放入元素再设置动作-->
+<script src="js/index.js"></script>
+
+</body>
+</html>

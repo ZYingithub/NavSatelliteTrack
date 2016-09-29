@@ -1,0 +1,2060 @@
+[
+  {
+    "id": "document",
+    "name": "CZML Wall",
+    "version": "1.0",
+    "clock": {
+      "interval": "2009-01-08T16:07:50Z/2009-01-08T17:16:30Z",
+      "currentTime": "2009-01-08T16:08:00Z",
+      "multiplier": 60,
+      "range": "LOOP_STOP",
+      "step": "SYSTEM_CLOCK_MULTIPLIER"
+    }
+  },
+  {
+    "id": "yellow_wall",
+    "name": "Track_yellow",
+    "description":"<a> https://www.baidu.com/ </a>",
+    "wall": {
+      "positions": {
+        "cartographicDegrees": [
+          -105.117,
+          39.9094,
+          5647,
+          -105.109,
+          39.9051,
+          5819,
+          -105.095,
+          39.8983,
+          6367.000000000001,
+          -105.077,
+          39.8973,
+          6563,
+          -105.059,
+          39.906,
+          7158.999999999999,
+          -105.046,
+          39.9195,
+          7812,
+          -105.035,
+          39.9335,
+          8013.999999999999,
+          -105.023,
+          39.9483,
+          8105.999999999999,
+          -105.014,
+          39.9653,
+          8501,
+          -105.011,
+          39.985,
+          8875,
+          -105.011,
+          40.0055,
+          9489,
+          -105.01,
+          40.0257,
+          10640,
+          -105.009,
+          40.0464,
+          11109,
+          -105.005,
+          40.0688,
+          11480,
+          -105,
+          40.0923,
+          11831,
+          -104.996,
+          40.1151,
+          12201,
+          -104.991,
+          40.1371,
+          12552,
+          -104.987,
+          40.1589,
+          12920,
+          -104.982,
+          40.181,
+          13443,
+          -104.978,
+          40.2031,
+          13995,
+          -104.974,
+          40.2249,
+          14617,
+          -104.969,
+          40.2467,
+          15243,
+          -104.965,
+          40.2684,
+          15616,
+          -104.961,
+          40.2901,
+          15992,
+          -104.956,
+          40.3119,
+          16369,
+          -104.952,
+          40.3338,
+          16748,
+          -104.947,
+          40.3559,
+          17119,
+          -104.943,
+          40.3781,
+          17521,
+          -104.938,
+          40.4005,
+          17897,
+          -104.934,
+          40.4232,
+          18252,
+          -104.929,
+          40.4461,
+          18634,
+          -104.925,
+          40.469,
+          18993
+        ]
+      },
+      "outline": true,
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 5,
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              0,
+              0,
+              150
+            ]
+          }
+        },
+      "polylineGlow" : {
+          "color" : {
+            "rgba" : [255, 0, 255, 255],
+            "glowPower" : 0.8
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "red_wall",
+    "name": "Track_red",
+    "wall": {
+      "positions": {
+        "cartographicDegrees": [
+          -104.925,
+          40.469,
+          18993,
+          -104.92,
+          40.4918,
+          19382,
+          -104.915,
+          40.5148,
+          19767,
+          -104.911,
+          40.5379,
+          20145,
+          -104.906,
+          40.561,
+          20510,
+          -104.901,
+          40.5841,
+          20883,
+          -104.896,
+          40.6074,
+          21261,
+          -104.892,
+          40.6306,
+          21635,
+          -104.887,
+          40.6541,
+          22013,
+          -104.882,
+          40.6778,
+          22380,
+          -104.877,
+          40.7017,
+          22754,
+          -104.872,
+          40.7259,
+          23129,
+          -104.867,
+          40.7501,
+          23512,
+          -104.862,
+          40.7746,
+          23903,
+          -104.857,
+          40.7994,
+          24286,
+          -104.852,
+          40.8246,
+          24658,
+          -104.847,
+          40.85,
+          25027,
+          -104.842,
+          40.8755,
+          25385,
+          -104.836,
+          40.9013,
+          25754,
+          -104.831,
+          40.9273,
+          26134,
+          -104.826,
+          40.9538,
+          26519,
+          -104.82,
+          40.9808,
+          26909,
+          -104.814,
+          41.0081,
+          27287,
+          -104.809,
+          41.0356,
+          27672,
+          -104.803,
+          41.0633,
+          28057,
+          -104.797,
+          41.0915,
+          28436,
+          -104.793,
+          41.1202,
+          28818,
+          -104.791,
+          41.1491,
+          29188,
+          -104.793,
+          41.1781,
+          29554,
+          -104.798,
+          41.2068,
+          29921,
+          -104.807,
+          41.2348,
+          30287,
+          -104.819,
+          41.262,
+          30652,
+          -104.833,
+          41.2883,
+          30896,
+          -104.851,
+          41.3138,
+          30985,
+          -104.871,
+          41.3391,
+          31206,
+          -104.891,
+          41.3647,
+          31604,
+          -104.911,
+          41.3904,
+          32151,
+          -104.931,
+          41.416,
+          32804,
+          -104.951,
+          41.4412,
+          33492,
+          -104.97,
+          41.4661,
+          34099,
+          -104.99,
+          41.4908,
+          34667,
+          -105.009,
+          41.5153,
+          35391,
+          -105.028,
+          41.5395,
+          35904,
+          -105.047,
+          41.5639,
+          36028,
+          -105.066,
+          41.5882,
+          36254,
+          -105.085,
+          41.6127,
+          36490,
+          -105.105,
+          41.6372,
+          36840,
+          -105.124,
+          41.6616,
+          37331,
+          -105.143,
+          41.686,
+          37694,
+          -105.162,
+          41.7104,
+          37913,
+          -105.182,
+          41.7349,
+          38085,
+          -105.201,
+          41.7593,
+          38299,
+          -105.22,
+          41.7837,
+          38569,
+          -105.239,
+          41.808,
+          38882,
+          -105.258,
+          41.8323,
+          39218,
+          -105.278,
+          41.8566,
+          39543,
+          -105.297,
+          41.881,
+          39759,
+          -105.316,
+          41.9053,
+          39997,
+          -105.336,
+          41.9298,
+          40208,
+          -105.355,
+          41.9544,
+          40296,
+          -105.375,
+          41.9792,
+          40450,
+          -105.395,
+          42.0041,
+          40692,
+          -105.415,
+          42.029,
+          40847,
+          -105.434,
+          42.0539,
+          41099,
+          -105.454,
+          42.0787,
+          41334,
+          -105.474,
+          42.1033,
+          41503,
+          -105.493,
+          42.1281,
+          41571,
+          -105.513,
+          42.1531,
+          41733,
+          -105.534,
+          42.1782,
+          41960,
+          -105.554,
+          42.2032,
+          42211,
+          -105.574,
+          42.2282,
+          42494,
+          -105.594,
+          42.2532,
+          42752,
+          -105.614,
+          42.2781,
+          42980,
+          -105.634,
+          42.3029,
+          43092,
+          -105.653,
+          42.3277,
+          43072,
+          -105.673,
+          42.3523,
+          43067,
+          -105.693,
+          42.3768,
+          43076,
+          -105.713,
+          42.4013,
+          43084,
+          -105.733,
+          42.4258,
+          43074,
+          -105.752,
+          42.4503,
+          43080,
+          -105.772,
+          42.4747,
+          43078,
+          -105.792,
+          42.4991,
+          43088,
+          -105.812,
+          42.5235,
+          43084,
+          -105.832,
+          42.548,
+          43077,
+          -105.852,
+          42.5726,
+          43082,
+          -105.871,
+          42.5972,
+          43084,
+          -105.892,
+          42.6219,
+          43086,
+          -105.912,
+          42.6465,
+          43083,
+          -105.932,
+          42.6711,
+          43088,
+          -105.952,
+          42.6956,
+          43082,
+          -105.972,
+          42.7201,
+          43078,
+          -105.991,
+          42.7444,
+          43074,
+          -106.011,
+          42.7685,
+          43072,
+          -106.031,
+          42.7924,
+          43076,
+          -106.05,
+          42.8162,
+          43078,
+          -106.07,
+          42.8399,
+          43076,
+          -106.089,
+          42.8636,
+          43085,
+          -106.109,
+          42.8873,
+          43083,
+          -106.128,
+          42.9112,
+          43069,
+          -106.148,
+          42.9351,
+          43075,
+          -106.168,
+          42.9591,
+          43073,
+          -106.188,
+          42.983,
+          43078,
+          -106.207,
+          43.007,
+          43089,
+          -106.227,
+          43.0311,
+          43075,
+          -106.247,
+          43.0551,
+          43071,
+          -106.267,
+          43.079,
+          43087,
+          -106.286,
+          43.1028,
+          43060,
+          -106.306,
+          43.1265,
+          43058,
+          -106.325,
+          43.15,
+          43065,
+          -106.344,
+          43.1733,
+          43087,
+          -106.363,
+          43.1965,
+          43098,
+          -106.382,
+          43.2198,
+          43083,
+          -106.402,
+          43.2433,
+          42752,
+          -106.421,
+          43.2669,
+          42375,
+          -106.441,
+          43.2906,
+          42002,
+          -106.46,
+          43.3143,
+          41621,
+          -106.48,
+          43.338,
+          41253,
+          -106.499,
+          43.3617,
+          40880,
+          -106.519,
+          43.3852,
+          40493,
+          -106.538,
+          43.4086,
+          40091,
+          -106.557,
+          43.4318,
+          39692,
+          -106.577,
+          43.4549,
+          39312,
+          -106.596,
+          43.478,
+          38943,
+          -106.615,
+          43.5013,
+          38566,
+          -106.635,
+          43.5248,
+          38177,
+          -106.654,
+          43.5486,
+          37806,
+          -106.675,
+          43.5727,
+          37433,
+          -106.695,
+          43.5971,
+          37042,
+          -106.715,
+          43.6215,
+          36665,
+          -106.736,
+          43.646,
+          36271,
+          -106.756,
+          43.6705,
+          36009,
+          -106.777,
+          43.6951,
+          35997,
+          -106.797,
+          43.7197,
+          36009,
+          -106.818,
+          43.7444,
+          35987,
+          -106.839,
+          43.7693,
+          35995,
+          -106.86,
+          43.7944,
+          36000,
+          -106.881,
+          43.8197,
+          36013,
+          -106.903,
+          43.8453,
+          36017,
+          -106.925,
+          43.8712,
+          36000,
+          -106.947,
+          43.8974,
+          35978,
+          -106.969,
+          43.9234,
+          35992,
+          -106.991,
+          43.9491,
+          35974,
+          -107.012,
+          43.9744,
+          35983,
+          -107.033,
+          43.9991,
+          35995,
+          -107.054,
+          44.0236,
+          36012,
+          -107.074,
+          44.0478,
+          36008,
+          -107.095,
+          44.0719,
+          36000,
+          -107.115,
+          44.096,
+          35945,
+          -107.136,
+          44.1203,
+          35579,
+          -107.157,
+          44.1446,
+          35196,
+          -107.178,
+          44.1691,
+          34809,
+          -107.199,
+          44.1938,
+          34430,
+          -107.22,
+          44.2188,
+          34037,
+          -107.242,
+          44.244,
+          33642,
+          -107.263,
+          44.269,
+          33260,
+          -107.284,
+          44.2936,
+          32887,
+          -107.304,
+          44.3174,
+          32526,
+          -107.324,
+          44.3408,
+          32146,
+          -107.344,
+          44.3638,
+          31769,
+          -107.364,
+          44.3865,
+          31390,
+          -107.383,
+          44.409,
+          31013,
+          -107.403,
+          44.4318,
+          30631,
+          -107.423,
+          44.4546,
+          30239,
+          -107.442,
+          44.4772,
+          29871,
+          -107.461,
+          44.4996,
+          29495,
+          -107.481,
+          44.522,
+          29109,
+          -107.5,
+          44.5444,
+          28722,
+          -107.52,
+          44.5667,
+          28339,
+          -107.539,
+          44.5889,
+          27974,
+          -107.558,
+          44.6108,
+          27602,
+          -107.577,
+          44.6326,
+          27219,
+          -107.595,
+          44.654,
+          26844,
+          -107.614,
+          44.675,
+          26478,
+          -107.632,
+          44.6959,
+          26105,
+          -107.65,
+          44.7169,
+          25725,
+          -107.669,
+          44.738,
+          25342,
+          -107.687,
+          44.7589,
+          24956,
+          -107.705,
+          44.7799,
+          24582,
+          -107.724,
+          44.8008,
+          24204,
+          -107.742,
+          44.8219,
+          23821,
+          -107.761,
+          44.843,
+          23443,
+          -107.779,
+          44.8643,
+          23059,
+          -107.798,
+          44.8857,
+          22683,
+          -107.817,
+          44.9074,
+          22314,
+          -107.836,
+          44.9291,
+          21915,
+          -107.855,
+          44.9501,
+          21546,
+          -107.873,
+          44.9705,
+          21174,
+          -107.89,
+          44.9904,
+          20799,
+          -107.908,
+          45.01010000000001,
+          20416,
+          -107.925,
+          45.0296,
+          20043,
+          -107.942,
+          45.049,
+          19665,
+          -107.959,
+          45.0682,
+          19282,
+          -107.976,
+          45.0872,
+          18902,
+          -107.993,
+          45.1061,
+          18514,
+          -108.009,
+          45.1245,
+          18145,
+          -108.025,
+          45.1426,
+          17772,
+          -108.041,
+          45.1605,
+          17408,
+          -108.057,
+          45.1783,
+          17029,
+          -108.073,
+          45.1959,
+          16662,
+          -108.088,
+          45.2135,
+          16286,
+          -108.104,
+          45.2311,
+          15907,
+          -108.12,
+          45.2488,
+          15529,
+          -108.136,
+          45.2665,
+          15146,
+          -108.151,
+          45.284,
+          14774,
+          -108.167,
+          45.3013,
+          14398,
+          -108.182,
+          45.3185,
+          14024,
+          -108.197,
+          45.3356,
+          13649,
+          -108.213,
+          45.3526,
+          13276,
+          -108.228,
+          45.36960000000001,
+          12894,
+          -108.243,
+          45.38679999999999,
+          12524,
+          -108.259,
+          45.404,
+          12145,
+          -108.274,
+          45.4211,
+          11770,
+          -108.289,
+          45.4382,
+          11421,
+          -108.305,
+          45.4552,
+          11345,
+          -108.32,
+          45.4723,
+          11341,
+          -108.335,
+          45.4893,
+          11032,
+          -108.349,
+          45.5065,
+          10653,
+          -108.36,
+          45.5249,
+          10185,
+          -108.366,
+          45.5446,
+          9738,
+          -108.37,
+          45.5652,
+          9358,
+          -108.373,
+          45.5856,
+          8936,
+          -108.377,
+          45.6051,
+          8563,
+          -108.38,
+          45.6239,
+          8207,
+          -108.383,
+          45.64180000000001,
+          7838,
+          -108.386,
+          45.6589,
+          7448,
+          -108.388,
+          45.6752,
+          7059.999999999999,
+          -108.391,
+          45.6909,
+          6684.000000000001,
+          -108.394,
+          45.706,
+          6430.000000000001,
+          -108.397,
+          45.7206,
+          6352,
+          -108.399,
+          45.73440000000001,
+          6360.999999999999,
+          -108.402,
+          45.74810000000001,
+          6377,
+          -108.407,
+          45.7596,
+          6363.999999999999,
+          -108.414,
+          45.7685,
+          6069,
+          -108.425,
+          45.7743,
+          5610,
+          -108.436,
+          45.77900000000001,
+          5198,
+          -108.448,
+          45.783,
+          4885,
+          -108.46,
+          45.7866,
+          4656,
+          -108.473,
+          45.79,
+          4498,
+          -108.485,
+          45.79340000000001,
+          4343,
+          -108.498,
+          45.79690000000001,
+          4167,
+          -108.51,
+          45.8003,
+          3997,
+          -108.522,
+          45.8037,
+          3871,
+          -108.522,
+          45.8037,
+          3871
+        ]
+      },
+      "outline": true,
+      "outlineColor": {
+        "rgba": [
+          255,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 5,
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              0,
+              0,
+              150
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "N677F",
+    "description": "17:16:30<br> Lat : 45.803688 deg_N<br>Lon : -108.522316 deg_E<br>Alt : 3872 feet<br>Temp : 8.87 C<br>DP : -0.58 C<br>WS : 10.84 knots<br>WD : 243.03 degree_T<br>WI : 0.72 m/s",
+    "position": {
+      "cartographicDegrees": [
+        -108.522,
+        45.8037,
+        3871.54
+      ]
+    },
+    "point": {
+      "color": {
+        "rgba": [
+          200,
+          0,
+          100,
+          200
+        ]
+      },
+      "pixelSize": {
+        "number": 10
+      }
+    }
+  },
+  {
+    "id": "take_off",
+    "description": "16:08:35 Lat : 39.909424 deg_N<br>Lon : -105.117233 deg_E<br>Alt : 5647 feet<br>Temp : 9.07 C<br>DP : -7.21 C<br>WS : 7.89 knots<br>WD : 145.95 degree_T<br>WI : 1.25 m/s",
+    "position": {
+      "cartographicDegrees": [
+        -105.117,
+        39.9094,
+        5647.14
+      ]
+    },
+    "point": {
+      "color": {
+        "rgba": [
+          250,
+          235,
+          215,
+          200
+        ]
+      },
+      "pixelSize": {
+        "number": 10
+      }
+    }
+  },
+  {
+    "id": "BJC",
+    "description": "Landmark",
+    "position": {
+      "cartographicDegrees": [
+        -105.116,
+        39.9083,
+        0
+      ]
+    },
+    "point": {
+      "color": {
+        "rgba": [
+          250,
+          0,
+          0,
+          200
+        ]
+      },
+      "pixelSize": {
+        "number": 10
+      }
+    }
+  },
+  {
+    "id": "ANC",
+    "description": "Landmark",
+    "position": {
+      "cartographicDegrees": [
+        -149.996,
+        61.1741,
+        0
+      ]
+    },
+    "point": {
+      "color": {
+        "rgba": [
+          250,
+          0,
+          0,
+          200
+        ]
+      },
+      "pixelSize": {
+        "number": 10
+      }
+    }
+  },
+  {
+    "id": "KOA",
+    "description": "Landmark",
+    "position": {
+      "cartographicDegrees": [
+        -156.013,
+        19.6475,
+        0
+      ]
+    },
+    "point": {
+      "color": {
+        "rgba": [
+          250,
+          0,
+          0,
+          200
+        ]
+      },
+      "pixelSize": {
+        "number": 10
+      }
+    }
+  },
+  {
+    "id": "NZCH",
+    "description": "Landmark",
+    "position": {
+      "cartographicDegrees": [
+        172.532,
+        -43.4893,
+        0
+      ]
+    },
+    "point": {
+      "color": {
+        "rgba": [
+          250,
+          0,
+          0,
+          200
+        ]
+      },
+      "pixelSize": {
+        "number": 10
+      }
+    }
+  },
+  {
+    "id": "16:08_N677F",
+    "description": "Lat : 39.909424 deg_N<br>Lon : -105.117233 deg_E<br>Alt : 5647 feet<br>Temp : 9.07 C<br>DP : -7.21 C<br>WS : 7.89 knots<br>WD : 145.95 degree_T<br>WI : 1.25 m/s",
+    "position": {
+      "cartographicDegrees": [
+        -105.117,
+        39.9094,
+        5647
+      ]
+    },
+    "label": {
+      "pixelOffset": {
+        "cartesian2": [
+          45,
+          0
+        ]
+      },
+      "scale": {
+        "number": [
+          "2009-01-08T16:06:35Z",
+          0,
+          "2009-01-08T16:08:35Z",
+          1,
+          "2009-01-08T17:16:30Z",
+          1
+        ]
+      },
+      "font": "5px",
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "text": {
+        "string": "16:08_N677F"
+      }
+    },
+    "billboard": {
+      "color": {
+        "rgba": [
+          255,
+          255,
+          0,
+          255
+        ]
+      },
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAACPElEQVR42u3dUW7kIBQF0cvsf8/Mx6g1kZN02zikH1TVCixxHiDLklvvPcbtz7sfwN6bAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAtA6C15terE1oGgM1pCQCttd57b+9+jh1bAsAxj4OfqzwAp39u5QEcE8TPVhqAiz2/0gCOfQfCO8F4ZQE4/b9TWQDHnk2/UMYrCeDOonocXKskgGNO/7zKAbg7/YK4VjkAx5z+uZUC4PT/fqUA9N7bx0uc0z+/UgCSzwjOJIjxygFI/iNw+udXEkByficQxL3KAkjO3wlsvNIAkuc7gSDuVx5A8vxOcMxXwddaAkDicTCrZQAkry+GorjeUgCSa8eBvW45AMnXO4EoxloSQDL2xtA+11b/X8ADgdM/1rI7wCMX/l7LA0g8Du60BYBEBKNtAyARwUhbAUhEcLXtACQiuNKWABIRnG1bAIkIzrQ1gEQEr9oeQCKCZyEAJCL4LgyARARfhQKQiOAYDkAigo8hASQieLT89wB2L+wOYP8SADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwPsL1G3y91riSr8AAAAASUVORK5CYII=",
+      "scale": 0.5
+    }
+  },
+  {
+    "id": "16:10_N677F",
+    "description": "Lat : 39.933517 deg_N<br>Lon : -105.034592 deg_E<br>Alt : 8015 feet<br>Temp : 6.09 C<br>DP : -11.06 C<br>WS : 12.19 knots<br>WD : 234.77 degree_T<br>WI : 0.22 m/s",
+    "position": {
+      "cartographicDegrees": [
+        -105.035,
+        39.9335,
+        8013.999999999999
+      ]
+    },
+    "label": {
+      "pixelOffset": {
+        "cartesian2": [
+          45,
+          0
+        ]
+      },
+      "scale": {
+        "number": [
+          "2009-01-08T16:08:35Z",
+          0,
+          "2009-01-08T16:09:35Z",
+          0,
+          "2009-01-08T16:10:35Z",
+          0.9,
+          "2009-01-08T17:16:30Z",
+          1
+        ]
+      },
+      "font": "5px",
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "text": {
+        "string": "16:10_N677F"
+      }
+    },
+    "billboard": {
+      "color": {
+        "rgba": [
+          255,
+          255,
+          0,
+          255
+        ]
+      },
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAACPElEQVR42u3dUW7kIBQF0cvsf8/Mx6g1kZN02zikH1TVCixxHiDLklvvPcbtz7sfwN6bAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAtA6C15terE1oGgM1pCQCttd57b+9+jh1bAsAxj4OfqzwAp39u5QEcE8TPVhqAiz2/0gCOfQfCO8F4ZQE4/b9TWQDHnk2/UMYrCeDOonocXKskgGNO/7zKAbg7/YK4VjkAx5z+uZUC4PT/fqUA9N7bx0uc0z+/UgCSzwjOJIjxygFI/iNw+udXEkByficQxL3KAkjO3wlsvNIAkuc7gSDuVx5A8vxOcMxXwddaAkDicTCrZQAkry+GorjeUgCSa8eBvW45AMnXO4EoxloSQDL2xtA+11b/X8ADgdM/1rI7wCMX/l7LA0g8Du60BYBEBKNtAyARwUhbAUhEcLXtACQiuNKWABIRnG1bAIkIzrQ1gEQEr9oeQCKCZyEAJCL4LgyARARfhQKQiOAYDkAigo8hASQieLT89wB2L+wOYP8SADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwPsL1G3y91riSr8AAAAASUVORK5CYII=",
+      "scale": 0.5
+    }
+  },
+  {
+    "id": "16:15_N677F",
+    "description": "Lat : 40.355877 deg_N<br>Lon : -104.947388 deg_E<br>Alt : 17120 feet<br>Temp : -10.68 C<br>DP : -25.71 C<br>WS : 45.78 knots<br>WD : 315.14 degree_T<br>WI : -0.83 m/s",
+    "position": {
+      "cartographicDegrees": [
+        -104.947,
+        40.3559,
+        17119
+      ]
+    },
+    "label": {
+      "pixelOffset": {
+        "cartesian2": [
+          45,
+          0
+        ]
+      },
+      "scale": {
+        "number": [
+          "2009-01-08T16:08:35Z",
+          0,
+          "2009-01-08T16:14:35Z",
+          0,
+          "2009-01-08T16:15:35Z",
+          0.8,
+          "2009-01-08T17:16:30Z",
+          1
+        ]
+      },
+      "font": "5px",
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "text": {
+        "string": "16:15_N677F"
+      }
+    },
+    "billboard": {
+      "color": {
+        "rgba": [
+          255,
+          255,
+          0,
+          255
+        ]
+      },
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAACPElEQVR42u3dUW7kIBQF0cvsf8/Mx6g1kZN02zikH1TVCixxHiDLklvvPcbtz7sfwN6bAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAtA6C15terE1oGgM1pCQCttd57b+9+jh1bAsAxj4OfqzwAp39u5QEcE8TPVhqAiz2/0gCOfQfCO8F4ZQE4/b9TWQDHnk2/UMYrCeDOonocXKskgGNO/7zKAbg7/YK4VjkAx5z+uZUC4PT/fqUA9N7bx0uc0z+/UgCSzwjOJIjxygFI/iNw+udXEkByficQxL3KAkjO3wlsvNIAkuc7gSDuVx5A8vxOcMxXwddaAkDicTCrZQAkry+GorjeUgCSa8eBvW45AMnXO4EoxloSQDL2xtA+11b/X8ADgdM/1rI7wCMX/l7LA0g8Du60BYBEBKNtAyARwUhbAUhEcLXtACQiuNKWABIRnG1bAIkIzrQ1gEQEr9oeQCKCZyEAJCL4LgyARARfhQKQiOAYDkAigo8hASQieLT89wB2L+wOYP8SADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwPsL1G3y91riSr8AAAAASUVORK5CYII=",
+      "scale": 0.5
+    }
+  },
+  {
+    "id": "16:20_N677F",
+    "description": "Lat : 40.824581 deg_N<br>Lon : -104.852127 deg_E<br>Alt : 24659 feet<br>Temp : -30.55 C<br>DP : -38.51 C<br>WS : 55.08 knots<br>WD : 301.65 degree_T<br>WI : -0.24 m/s",
+    "position": {
+      "cartographicDegrees": [
+        -104.852,
+        40.8246,
+        24658
+      ]
+    },
+    "label": {
+      "pixelOffset": {
+        "cartesian2": [
+          45,
+          0
+        ]
+      },
+      "scale": {
+        "number": [
+          "2009-01-08T16:08:35Z",
+          0,
+          "2009-01-08T16:19:35Z",
+          0,
+          "2009-01-08T16:20:35Z",
+          0.8,
+          "2009-01-08T17:16:30Z",
+          1
+        ]
+      },
+      "font": "5px",
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "text": {
+        "string": "16:20_N677F"
+      }
+    },
+    "billboard": {
+      "color": {
+        "rgba": [
+          255,
+          255,
+          0,
+          255
+        ]
+      },
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAACPElEQVR42u3dUW7kIBQF0cvsf8/Mx6g1kZN02zikH1TVCixxHiDLklvvPcbtz7sfwN6bAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAtA6C15terE1oGgM1pCQCttd57b+9+jh1bAsAxj4OfqzwAp39u5QEcE8TPVhqAiz2/0gCOfQfCO8F4ZQE4/b9TWQDHnk2/UMYrCeDOonocXKskgGNO/7zKAbg7/YK4VjkAx5z+uZUC4PT/fqUA9N7bx0uc0z+/UgCSzwjOJIjxygFI/iNw+udXEkByficQxL3KAkjO3wlsvNIAkuc7gSDuVx5A8vxOcMxXwddaAkDicTCrZQAkry+GorjeUgCSa8eBvW45AMnXO4EoxloSQDL2xtA+11b/X8ADgdM/1rI7wCMX/l7LA0g8Du60BYBEBKNtAyARwUhbAUhEcLXtACQiuNKWABIRnG1bAIkIzrQ1gEQEr9oeQCKCZyEAJCL4LgyARARfhQKQiOAYDkAigo8hASQieLT89wB2L+wOYP8SADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwPsL1G3y91riSr8AAAAASUVORK5CYII=",
+      "scale": 0.5
+    }
+  },
+  {
+    "id": "16:25_N677F",
+    "description": "Lat : 41.364723 deg_N<br>Lon : -104.890930 deg_E<br>Alt : 31605 feet<br>Temp : -44.47 C<br>DP : -57.92 C<br>WS : 70.59 knots<br>WD : 271.84 degree_T<br>WI : 1.51 m/s",
+    "position": {
+      "cartographicDegrees": [
+        -104.891,
+        41.3647,
+        31604
+      ]
+    },
+    "label": {
+      "pixelOffset": {
+        "cartesian2": [
+          45,
+          0
+        ]
+      },
+      "scale": {
+        "number": [
+          "2009-01-08T16:08:35Z",
+          0,
+          "2009-01-08T16:24:35Z",
+          0,
+          "2009-01-08T16:25:35Z",
+          0.8,
+          "2009-01-08T17:16:30Z",
+          1
+        ]
+      },
+      "font": "5px",
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "text": {
+        "string": "16:25_N677F"
+      }
+    },
+    "billboard": {
+      "color": {
+        "rgba": [
+          255,
+          255,
+          0,
+          255
+        ]
+      },
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAACPElEQVR42u3dUW7kIBQF0cvsf8/Mx6g1kZN02zikH1TVCixxHiDLklvvPcbtz7sfwN6bAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAtA6C15terE1oGgM1pCQCttd57b+9+jh1bAsAxj4OfqzwAp39u5QEcE8TPVhqAiz2/0gCOfQfCO8F4ZQE4/b9TWQDHnk2/UMYrCeDOonocXKskgGNO/7zKAbg7/YK4VjkAx5z+uZUC4PT/fqUA9N7bx0uc0z+/UgCSzwjOJIjxygFI/iNw+udXEkByficQxL3KAkjO3wlsvNIAkuc7gSDuVx5A8vxOcMxXwddaAkDicTCrZQAkry+GorjeUgCSa8eBvW45AMnXO4EoxloSQDL2xtA+11b/X8ADgdM/1rI7wCMX/l7LA0g8Du60BYBEBKNtAyARwUhbAUhEcLXtACQiuNKWABIRnG1bAIkIzrQ1gEQEr9oeQCKCZyEAJCL4LgyARARfhQKQiOAYDkAigo8hASQieLT89wB2L+wOYP8SADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwPsL1G3y91riSr8AAAAASUVORK5CYII=",
+      "scale": 0.5
+    }
+  },
+  {
+    "id": "16:30_N677F",
+    "description": "Lat : 41.856586 deg_N<br>Lon : -105.277687 deg_E<br>Alt : 39543 feet<br>Temp : -49.92 C<br>DP : -76.40 C<br>WS : 74.22 knots<br>WD : 285.57 degree_T<br>WI : -0.55 m/s]",
+    "position": {
+      "cartographicDegrees": [
+        -105.278,
+        41.8566,
+        39543
+      ]
+    },
+    "label": {
+      "pixelOffset": {
+        "cartesian2": [
+          45,
+          0
+        ]
+      },
+      "scale": {
+        "number": [
+          "2009-01-08T16:08:35Z",
+          0,
+          "2009-01-08T16:29:35Z",
+          0,
+          "2009-01-08T16:30:35Z",
+          0.8,
+          "2009-01-08T17:16:30Z",
+          1
+        ]
+      },
+      "font": "5px",
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "text": {
+        "string": "16:30_N677F"
+      }
+    },
+    "billboard": {
+      "color": {
+        "rgba": [
+          255,
+          255,
+          0,
+          255
+        ]
+      },
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAACPElEQVR42u3dUW7kIBQF0cvsf8/Mx6g1kZN02zikH1TVCixxHiDLklvvPcbtz7sfwN6bAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAtA6C15terE1oGgM1pCQCttd57b+9+jh1bAsAxj4OfqzwAp39u5QEcE8TPVhqAiz2/0gCOfQfCO8F4ZQE4/b9TWQDHnk2/UMYrCeDOonocXKskgGNO/7zKAbg7/YK4VjkAx5z+uZUC4PT/fqUA9N7bx0uc0z+/UgCSzwjOJIjxygFI/iNw+udXEkByficQxL3KAkjO3wlsvNIAkuc7gSDuVx5A8vxOcMxXwddaAkDicTCrZQAkry+GorjeUgCSa8eBvW45AMnXO4EoxloSQDL2xtA+11b/X8ADgdM/1rI7wCMX/l7LA0g8Du60BYBEBKNtAyARwUhbAUhEcLXtACQiuNKWABIRnG1bAIkIzrQ1gEQEr9oeQCKCZyEAJCL4LgyARARfhQKQiOAYDkAigo8hASQieLT89wB2L+wOYP8SADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwPsL1G3y91riSr8AAAAASUVORK5CYII=",
+      "scale": 0.5
+    }
+  },
+  {
+    "id": "16:35_N677F",
+    "description": "Lat : 42.352303 deg_N<br>Lon : -105.673279 deg_E<br>Alt : 43068 feet<br>Temp : -55.92 C<br>DP : -76.87 C<br>WS : 71.01 knots<br>WD : 274.86 degree_T<br>WI : -1.60 m/s",
+    "position": {
+      "cartographicDegrees": [
+        -105.673,
+        42.3523,
+        43067
+      ]
+    },
+    "label": {
+      "pixelOffset": {
+        "cartesian2": [
+          45,
+          0
+        ]
+      },
+      "scale": {
+        "number": [
+          "2009-01-08T16:08:35Z",
+          0,
+          "2009-01-08T16:34:35Z",
+          0,
+          "2009-01-08T16:35:35Z",
+          0.8,
+          "2009-01-08T17:16:30Z",
+          1
+        ]
+      },
+      "font": "5px",
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "text": {
+        "string": "16:35_N677F"
+      }
+    },
+    "billboard": {
+      "color": {
+        "rgba": [
+          255,
+          255,
+          0,
+          255
+        ]
+      },
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAACPElEQVR42u3dUW7kIBQF0cvsf8/Mx6g1kZN02zikH1TVCixxHiDLklvvPcbtz7sfwN6bAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAtA6C15terE1oGgM1pCQCttd57b+9+jh1bAsAxj4OfqzwAp39u5QEcE8TPVhqAiz2/0gCOfQfCO8F4ZQE4/b9TWQDHnk2/UMYrCeDOonocXKskgGNO/7zKAbg7/YK4VjkAx5z+uZUC4PT/fqUA9N7bx0uc0z+/UgCSzwjOJIjxygFI/iNw+udXEkByficQxL3KAkjO3wlsvNIAkuc7gSDuVx5A8vxOcMxXwddaAkDicTCrZQAkry+GorjeUgCSa8eBvW45AMnXO4EoxloSQDL2xtA+11b/X8ADgdM/1rI7wCMX/l7LA0g8Du60BYBEBKNtAyARwUhbAUhEcLXtACQiuNKWABIRnG1bAIkIzrQ1gEQEr9oeQCKCZyEAJCL4LgyARARfhQKQiOAYDkAigo8hASQieLT89wB2L+wOYP8SADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwPsL1G3y91riSr8AAAAASUVORK5CYII=",
+      "scale": 0.5
+    }
+  },
+  {
+    "id": "16:40_N677F",
+    "description": "Lat : 42.839920 deg_N<br>Lon : -106.069656 deg_E<br>Alt : 43076 feet<br>Temp : -54.50 C<br>WS : 83.62 knots<br>WD : 276.54 degree_T<br>WI : -0.98 m/s",
+    "position": {
+      "cartographicDegrees": [
+        -106.07,
+        42.8399,
+        43076
+      ]
+    },
+    "label": {
+      "pixelOffset": {
+        "cartesian2": [
+          45,
+          0
+        ]
+      },
+      "scale": {
+        "number": [
+          "2009-01-08T16:08:35Z",
+          0,
+          "2009-01-08T16:39:35Z",
+          0,
+          "2009-01-08T16:40:35Z",
+          0.8,
+          "2009-01-08T17:16:30Z",
+          1
+        ]
+      },
+      "font": "5px",
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "text": {
+        "string": "16:40_N677F"
+      }
+    },
+    "billboard": {
+      "color": {
+        "rgba": [
+          255,
+          255,
+          0,
+          255
+        ]
+      },
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAACPElEQVR42u3dUW7kIBQF0cvsf8/Mx6g1kZN02zikH1TVCixxHiDLklvvPcbtz7sfwN6bAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAtA6C15terE1oGgM1pCQCttd57b+9+jh1bAsAxj4OfqzwAp39u5QEcE8TPVhqAiz2/0gCOfQfCO8F4ZQE4/b9TWQDHnk2/UMYrCeDOonocXKskgGNO/7zKAbg7/YK4VjkAx5z+uZUC4PT/fqUA9N7bx0uc0z+/UgCSzwjOJIjxygFI/iNw+udXEkByficQxL3KAkjO3wlsvNIAkuc7gSDuVx5A8vxOcMxXwddaAkDicTCrZQAkry+GorjeUgCSa8eBvW45AMnXO4EoxloSQDL2xtA+11b/X8ADgdM/1rI7wCMX/l7LA0g8Du60BYBEBKNtAyARwUhbAUhEcLXtACQiuNKWABIRnG1bAIkIzrQ1gEQEr9oeQCKCZyEAJCL4LgyARARfhQKQiOAYDkAigo8hASQieLT89wB2L+wOYP8SADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwPsL1G3y91riSr8AAAAASUVORK5CYII=",
+      "scale": 0.5
+    }
+  },
+  {
+    "id": "16:45_N677F",
+    "description": "Lat : 43.314304 deg_N<br>Lon : -106.460297 deg_E<br>Alt : 41622 feet<br>Temp : -53.70 C<br>WS : 84.31 knots<br>WD : 287.09 degree_T<br>WI : -0.58 m/s",
+    "position": {
+      "cartographicDegrees": [
+        -106.46,
+        43.3143,
+        41621
+      ]
+    },
+    "label": {
+      "pixelOffset": {
+        "cartesian2": [
+          45,
+          0
+        ]
+      },
+      "scale": {
+        "number": [
+          "2009-01-08T16:08:35Z",
+          0,
+          "2009-01-08T16:44:35Z",
+          0,
+          "2009-01-08T16:45:35Z",
+          1,
+          "2009-01-08T17:16:30Z",
+          1
+        ]
+      },
+      "font": "5px",
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "text": {
+        "string": "16:45_N677F"
+      }
+    },
+    "billboard": {
+      "color": {
+        "rgba": [
+          255,
+          255,
+          0,
+          255
+        ]
+      },
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAACPElEQVR42u3dUW7kIBQF0cvsf8/Mx6g1kZN02zikH1TVCixxHiDLklvvPcbtz7sfwN6bAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAtA6C15terE1oGgM1pCQCttd57b+9+jh1bAsAxj4OfqzwAp39u5QEcE8TPVhqAiz2/0gCOfQfCO8F4ZQE4/b9TWQDHnk2/UMYrCeDOonocXKskgGNO/7zKAbg7/YK4VjkAx5z+uZUC4PT/fqUA9N7bx0uc0z+/UgCSzwjOJIjxygFI/iNw+udXEkByficQxL3KAkjO3wlsvNIAkuc7gSDuVx5A8vxOcMxXwddaAkDicTCrZQAkry+GorjeUgCSa8eBvW45AMnXO4EoxloSQDL2xtA+11b/X8ADgdM/1rI7wCMX/l7LA0g8Du60BYBEBKNtAyARwUhbAUhEcLXtACQiuNKWABIRnG1bAIkIzrQ1gEQEr9oeQCKCZyEAJCL4LgyARARfhQKQiOAYDkAigo8hASQieLT89wB2L+wOYP8SADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwPsL1G3y91riSr8AAAAASUVORK5CYII=",
+      "scale": 0.5
+    }
+  },
+  {
+    "id": "16:50_N677F",
+    "description": "Lat : 43.794380 deg_N<br>Lon : -106.860168 deg_E<br>Alt : 36000 feet<br>Temp : -53.13 C<br>WS : 65.14 knots<br>WD : 267.09 degree_T<br>WI : -1.05 m/s",
+    "position": {
+      "cartographicDegrees": [
+        -106.86,
+        43.7944,
+        36000
+      ]
+    },
+    "label": {
+      "pixelOffset": {
+        "cartesian2": [
+          45,
+          0
+        ]
+      },
+      "scale": {
+        "number": [
+          "2009-01-08T16:08:35Z",
+          0,
+          "2009-01-08T16:49:35Z",
+          0,
+          "2009-01-08T16:50:35Z",
+          0.8,
+          "2009-01-08T17:16:30Z",
+          1
+        ]
+      },
+      "font": "5px",
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "text": {
+        "string": "16:50_N677F"
+      }
+    },
+    "billboard": {
+      "color": {
+        "rgba": [
+          255,
+          255,
+          0,
+          255
+        ]
+      },
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAACPElEQVR42u3dUW7kIBQF0cvsf8/Mx6g1kZN02zikH1TVCixxHiDLklvvPcbtz7sfwN6bAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAtA6C15terE1oGgM1pCQCttd57b+9+jh1bAsAxj4OfqzwAp39u5QEcE8TPVhqAiz2/0gCOfQfCO8F4ZQE4/b9TWQDHnk2/UMYrCeDOonocXKskgGNO/7zKAbg7/YK4VjkAx5z+uZUC4PT/fqUA9N7bx0uc0z+/UgCSzwjOJIjxygFI/iNw+udXEkByficQxL3KAkjO3wlsvNIAkuc7gSDuVx5A8vxOcMxXwddaAkDicTCrZQAkry+GorjeUgCSa8eBvW45AMnXO4EoxloSQDL2xtA+11b/X8ADgdM/1rI7wCMX/l7LA0g8Du60BYBEBKNtAyARwUhbAUhEcLXtACQiuNKWABIRnG1bAIkIzrQ1gEQEr9oeQCKCZyEAJCL4LgyARARfhQKQiOAYDkAigo8hASQieLT89wB2L+wOYP8SADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwPsL1G3y91riSr8AAAAASUVORK5CYII=",
+      "scale": 0.5
+    }
+  },
+  {
+    "id": "16:55_N677F",
+    "description": "Lat : 44.293556 deg_N<br>Lon : -107.283905 deg_E<br>Alt : 32887 feet<br>Temp : -47.25 C<br>WS : 88.25 knots<br>WD : 269.19 degree_T<br>WI : -0.91 m/s",
+    "position": {
+      "cartographicDegrees": [
+        -107.284,
+        44.2936,
+        32887
+      ]
+    },
+    "label": {
+      "pixelOffset": {
+        "cartesian2": [
+          45,
+          0
+        ]
+      },
+      "scale": {
+        "number": [
+          "2009-01-08T16:08:35Z",
+          0,
+          "2009-01-08T16:54:35Z",
+          0,
+          "2009-01-08T16:55:35Z",
+          0.8,
+          "2009-01-08T17:16:30Z",
+          1
+        ]
+      },
+      "font": "5px",
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "text": {
+        "string": "16:55_N677F"
+      }
+    },
+    "billboard": {
+      "color": {
+        "rgba": [
+          255,
+          255,
+          0,
+          255
+        ]
+      },
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAACPElEQVR42u3dUW7kIBQF0cvsf8/Mx6g1kZN02zikH1TVCixxHiDLklvvPcbtz7sfwN6bAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAtA6C15terE1oGgM1pCQCttd57b+9+jh1bAsAxj4OfqzwAp39u5QEcE8TPVhqAiz2/0gCOfQfCO8F4ZQE4/b9TWQDHnk2/UMYrCeDOonocXKskgGNO/7zKAbg7/YK4VjkAx5z+uZUC4PT/fqUA9N7bx0uc0z+/UgCSzwjOJIjxygFI/iNw+udXEkByficQxL3KAkjO3wlsvNIAkuc7gSDuVx5A8vxOcMxXwddaAkDicTCrZQAkry+GorjeUgCSa8eBvW45AMnXO4EoxloSQDL2xtA+11b/X8ADgdM/1rI7wCMX/l7LA0g8Du60BYBEBKNtAyARwUhbAUhEcLXtACQiuNKWABIRnG1bAIkIzrQ1gEQEr9oeQCKCZyEAJCL4LgyARARfhQKQiOAYDkAigo8hASQieLT89wB2L+wOYP8SADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwPsL1G3y91riSr8AAAAASUVORK5CYII=",
+      "scale": 0.5
+    }
+  },
+  {
+    "id": "17:00_N677F",
+    "description": "Lat : 44.737953 deg_N<br>Lon : -107.668571 deg_E<br>Alt : 25342 feet<br>Temp : -32.95 C<br>WS : 81.77 knots<br>WD : 288.31 degree_T<br>WI : -1.06 m/s",
+    "position": {
+      "cartographicDegrees": [
+        -107.669,
+        44.738,
+        25342
+      ]
+    },
+    "label": {
+      "pixelOffset": {
+        "cartesian2": [
+          45,
+          0
+        ]
+      },
+      "scale": {
+        "number": [
+          "2009-01-08T16:08:35Z",
+          0,
+          "2009-01-08T16:59:35Z",
+          0,
+          "2009-01-08T17:00:35Z",
+          0.8,
+          "2009-01-08T17:16:30Z",
+          1
+        ]
+      },
+      "font": "5px",
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "text": {
+        "string": "17:00_N677F"
+      }
+    },
+    "billboard": {
+      "color": {
+        "rgba": [
+          255,
+          255,
+          0,
+          255
+        ]
+      },
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAACPElEQVR42u3dUW7kIBQF0cvsf8/Mx6g1kZN02zikH1TVCixxHiDLklvvPcbtz7sfwN6bAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAtA6C15terE1oGgM1pCQCttd57b+9+jh1bAsAxj4OfqzwAp39u5QEcE8TPVhqAiz2/0gCOfQfCO8F4ZQE4/b9TWQDHnk2/UMYrCeDOonocXKskgGNO/7zKAbg7/YK4VjkAx5z+uZUC4PT/fqUA9N7bx0uc0z+/UgCSzwjOJIjxygFI/iNw+udXEkByficQxL3KAkjO3wlsvNIAkuc7gSDuVx5A8vxOcMxXwddaAkDicTCrZQAkry+GorjeUgCSa8eBvW45AMnXO4EoxloSQDL2xtA+11b/X8ADgdM/1rI7wCMX/l7LA0g8Du60BYBEBKNtAyARwUhbAUhEcLXtACQiuNKWABIRnG1bAIkIzrQ1gEQEr9oeQCKCZyEAJCL4LgyARARfhQKQiOAYDkAigo8hASQieLT89wB2L+wOYP8SADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwPsL1G3y91riSr8AAAAASUVORK5CYII=",
+      "scale": 0.5
+    }
+  },
+  {
+    "id": "17:05_N677F",
+    "description": "Lat : 45.142624 deg_N<br>Lon : -108.025017 deg_E<br>Alt : 17772 feet<br>Temp : -16.56 C<br>DP : -21.30 C<br>WS : 80.98 knots<br>WD : 280.30 degree_T<br>WI : -3.59 m/s",
+    "position": {
+      "cartographicDegrees": [
+        -108.025,
+        45.1426,
+        17772
+      ]
+    },
+    "label": {
+      "pixelOffset": {
+        "cartesian2": [
+          45,
+          0
+        ]
+      },
+      "scale": {
+        "number": [
+          "2009-01-08T16:08:35Z",
+          0,
+          "2009-01-08T17:04:35Z",
+          0,
+          "2009-01-08T17:05:35Z",
+          0.8,
+          "2009-01-08T17:16:30Z",
+          1
+        ]
+      },
+      "font": "5px",
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "text": {
+        "string": "17:05_N677F"
+      }
+    },
+    "billboard": {
+      "color": {
+        "rgba": [
+          255,
+          255,
+          0,
+          255
+        ]
+      },
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAACPElEQVR42u3dUW7kIBQF0cvsf8/Mx6g1kZN02zikH1TVCixxHiDLklvvPcbtz7sfwN6bAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAtA6C15terE1oGgM1pCQCttd57b+9+jh1bAsAxj4OfqzwAp39u5QEcE8TPVhqAiz2/0gCOfQfCO8F4ZQE4/b9TWQDHnk2/UMYrCeDOonocXKskgGNO/7zKAbg7/YK4VjkAx5z+uZUC4PT/fqUA9N7bx0uc0z+/UgCSzwjOJIjxygFI/iNw+udXEkByficQxL3KAkjO3wlsvNIAkuc7gSDuVx5A8vxOcMxXwddaAkDicTCrZQAkry+GorjeUgCSa8eBvW45AMnXO4EoxloSQDL2xtA+11b/X8ADgdM/1rI7wCMX/l7LA0g8Du60BYBEBKNtAyARwUhbAUhEcLXtACQiuNKWABIRnG1bAIkIzrQ1gEQEr9oeQCKCZyEAJCL4LgyARARfhQKQiOAYDkAigo8hASQieLT89wB2L+wOYP8SADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwPsL1G3y91riSr8AAAAASUVORK5CYII=",
+      "scale": 0.5
+    }
+  },
+  {
+    "id": "17:10_N677F",
+    "description": "Lat : 45.489250 deg_N<br>Lon : -108.335426 deg_E<br>Alt : 11032 feet<br>Temp : -3.52 C<br>WS : 56.21 knots<br>WD : 278.13 degree_T<br>WI : -0.35 m/s",
+    "position": {
+      "cartographicDegrees": [
+        -108.335,
+        45.4893,
+        11032
+      ]
+    },
+    "label": {
+      "pixelOffset": {
+        "cartesian2": [
+          45,
+          0
+        ]
+      },
+      "scale": {
+        "number": [
+          "2009-01-08T16:08:35Z",
+          0,
+          "2009-01-08T17:09:35Z",
+          0,
+          "2009-01-08T17:10:35Z",
+          0.8,
+          "2009-01-08T17:16:30Z",
+          1
+        ]
+      },
+      "font": "5px",
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "text": {
+        "string": "17:10_N677F"
+      }
+    },
+    "billboard": {
+      "color": {
+        "rgba": [
+          255,
+          255,
+          0,
+          255
+        ]
+      },
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAACPElEQVR42u3dUW7kIBQF0cvsf8/Mx6g1kZN02zikH1TVCixxHiDLklvvPcbtz7sfwN6bAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAtA6C15terE1oGgM1pCQCttd57b+9+jh1bAsAxj4OfqzwAp39u5QEcE8TPVhqAiz2/0gCOfQfCO8F4ZQE4/b9TWQDHnk2/UMYrCeDOonocXKskgGNO/7zKAbg7/YK4VjkAx5z+uZUC4PT/fqUA9N7bx0uc0z+/UgCSzwjOJIjxygFI/iNw+udXEkByficQxL3KAkjO3wlsvNIAkuc7gSDuVx5A8vxOcMxXwddaAkDicTCrZQAkry+GorjeUgCSa8eBvW45AMnXO4EoxloSQDL2xtA+11b/X8ADgdM/1rI7wCMX/l7LA0g8Du60BYBEBKNtAyARwUhbAUhEcLXtACQiuNKWABIRnG1bAIkIzrQ1gEQEr9oeQCKCZyEAJCL4LgyARARfhQKQiOAYDkAigo8hASQieLT89wB2L+wOYP8SADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwPsL1G3y91riSr8AAAAASUVORK5CYII=",
+      "scale": 0.5
+    }
+  },
+  {
+    "id": "17:15_N677F",
+    "description": "Lat : 45.782993 deg_N<br>Lon : -108.448257 deg_E<br>Alt : 4885 feet<br>Temp : 11.85 C<br>WS : 32.97 knots<br>WD : 234.91 degree_T<br>WI : 0.53 m/s",
+    "position": {
+      "cartographicDegrees": [
+        -108.448,
+        45.783,
+        4885
+      ]
+    },
+    "label": {
+      "pixelOffset": {
+        "cartesian2": [
+          45,
+          0
+        ]
+      },
+      "scale": {
+        "number": [
+          "2009-01-08T16:08:35Z",
+          0,
+          "2009-01-08T17:14:35Z",
+          0,
+          "2009-01-08T17:15:35Z",
+          0.8,
+          "2009-01-08T17:16:30Z",
+          1
+        ]
+      },
+      "font": "5px",
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "text": {
+        "string": "17:15_N677F"
+      }
+    },
+    "billboard": {
+      "color": {
+        "rgba": [
+          255,
+          255,
+          0,
+          255
+        ]
+      },
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAACPElEQVR42u3dUW7kIBQF0cvsf8/Mx6g1kZN02zikH1TVCixxHiDLklvvPcbtz7sfwN6bAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAtA6C15terE1oGgM1pCQCttd57b+9+jh1bAsAxj4OfqzwAp39u5QEcE8TPVhqAiz2/0gCOfQfCO8F4ZQE4/b9TWQDHnk2/UMYrCeDOonocXKskgGNO/7zKAbg7/YK4VjkAx5z+uZUC4PT/fqUA9N7bx0uc0z+/UgCSzwjOJIjxygFI/iNw+udXEkByficQxL3KAkjO3wlsvNIAkuc7gSDuVx5A8vxOcMxXwddaAkDicTCrZQAkry+GorjeUgCSa8eBvW45AMnXO4EoxloSQDL2xtA+11b/X8ADgdM/1rI7wCMX/l7LA0g8Du60BYBEBKNtAyARwUhbAUhEcLXtACQiuNKWABIRnG1bAIkIzrQ1gEQEr9oeQCKCZyEAJCL4LgyARARfhQKQiOAYDkAigo8hASQieLT89wB2L+wOYP8SADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwPsL1G3y91riSr8AAAAASUVORK5CYII=",
+      "scale": 0.5
+    }
+  },
+  {
+    "id": "17:16_N677F",
+    "description": "Lat : 45.803688 deg_N<br>Lon : -108.522316 deg_E<br>Alt : 3872 feet<br>Temp : 8.87 C<br>DP : -0.58 C<br>WS : 10.84 knots<br>WD : 243.03 degree_T<br>WI : 0.72 m/s",
+    "position": {
+      "cartographicDegrees": [
+        -108.522,
+        45.8037,
+        3871
+      ]
+    },
+    "label": {
+      "pixelOffset": {
+        "cartesian2": [
+          45,
+          0
+        ]
+      },
+      "scale": {
+        "number": [
+          "2009-01-08T16:08:35Z",
+          0,
+          "2009-01-08T16:14:35Z",
+          0,
+          "2009-01-08T17:15:35Z",
+          0,
+          "2009-01-08T17:16:30Z",
+          1
+        ]
+      },
+      "font": "5px",
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "text": {
+        "string": "17:16_N677F"
+      }
+    },
+    "billboard": {
+      "color": {
+        "rgba": [
+          255,
+          255,
+          0,
+          255
+        ]
+      },
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAACPElEQVR42u3dUW7kIBQF0cvsf8/Mx6g1kZN02zikH1TVCixxHiDLklvvPcbtz7sfwN6bAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAJAJ4A4AkAngDgCQCeAOAtA6C15terE1oGgM1pCQCttd57b+9+jh1bAsAxj4OfqzwAp39u5QEcE8TPVhqAiz2/0gCOfQfCO8F4ZQE4/b9TWQDHnk2/UMYrCeDOonocXKskgGNO/7zKAbg7/YK4VjkAx5z+uZUC4PT/fqUA9N7bx0uc0z+/UgCSzwjOJIjxygFI/iNw+udXEkByficQxL3KAkjO3wlsvNIAkuc7gSDuVx5A8vxOcMxXwddaAkDicTCrZQAkry+GorjeUgCSa8eBvW45AMnXO4EoxloSQDL2xtA+11b/X8ADgdM/1rI7wCMX/l7LA0g8Du60BYBEBKNtAyARwUhbAUhEcLXtACQiuNKWABIRnG1bAIkIzrQ1gEQEr9oeQCKCZyEAJCL4LgyARARfhQKQiOAYDkAigo8hASQieLT89wB2L+wOYP8SADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwBMAPAHAEwA8AcATADwBwPsL1G3y91riSr8AAAAASUVORK5CYII=",
+      "scale": 0.5
+    }
+  },
+  {
+    "id": "aircraft model",
+    "name": "airplane",
+    "orientation": {
+      "unitQuaternion": [
+        0.2,
+        -0.8,
+        0.7,
+        1
+      ]
+    },
+    "model": {
+      "gltf": "CesiumAir/Cesium_Air.gltf",
+      "scale": 15,
+      "minimumPixelSize": 100
+    },
+    "position": {
+      "epoch": "2009-01-08T16:08:35Z",
+      "interpolationAlgorithm": "LAGRANGE",
+      "interpolationDegree": 0.5,
+      "cartographicDegrees": [
+        0,
+        -105.117,
+        39.9094,
+        5647,
+        120,
+        -105.023,
+        39.9483,
+        8105.999999999999,
+        480,
+        -104.925,
+        40.469,
+        18993,
+        720,
+        -104.809,
+        41.0356,
+        27672,
+        960,
+        -104.951,
+        41.4412,
+        33492,
+        1080,
+        -105.162,
+        41.7104,
+        37913,
+        1200,
+        -105.375,
+        41.9792,
+        40450,
+        1520,
+        -105.693,
+        42.3768,
+        43076,
+        1640,
+        -105.812,
+        42.5235,
+        43084,
+        1760,
+        -105.952,
+        42.6956,
+        43082,
+        1880,
+        -106.07,
+        42.8399,
+        43076,
+        2000,
+        -106.188,
+        42.983,
+        43078,
+        2120,
+        -106.286,
+        43.1028,
+        43060,
+        2240,
+        -106.402,
+        43.2433,
+        42752,
+        2360,
+        -106.46,
+        43.3143,
+        41621,
+        2480,
+        -106.577,
+        43.4549,
+        39312,
+        2600,
+        -106.654,
+        43.5486,
+        37806,
+        2720,
+        -107.012,
+        43.9744,
+        35983,
+        2840,
+        -107.595,
+        44.654,
+        26844,
+        2960,
+        -107.798,
+        44.8857,
+        22683,
+        3000,
+        -107.89,
+        44.9904,
+        20799,
+        3120,
+        -108.36,
+        45.5249,
+        10185,
+        3300,
+        -108.391,
+        45.6909,
+        6684.000000000001,
+        3500,
+        -108.407,
+        45.7596,
+        6363.999999999999,
+        3560,
+        -108.473,
+        45.79,
+        4498,
+        3648,
+        -108.522,
+        45.8037,
+        3871
+      ]
+    }
+  }
+]

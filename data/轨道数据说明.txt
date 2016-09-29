@@ -1,0 +1,5 @@
+http://www.orbitalpredictor.com/api/predict_orbit/?sats=36590&start=2016-02-26_15:00:00&end=2016-02-27_15:00:00&format=czml&type=orbit
+由于指定了 start 和 end 参数，
+本文件夹下的CZML轨道数据都是
+2016-02-26_15:00:00&end=2016-02-27_15:00:00
+之间的数据

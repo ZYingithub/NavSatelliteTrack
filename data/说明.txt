@@ -1,0 +1,3 @@
+该数据源自http://www.orbitalpredictor.com/api/网站API获取
+该网站目前提供BEIDOU 18颗卫星轨道CZML数据，
+其轨道数据是用来自Celes Track网站提供的API用Python相关包工具计算得到
